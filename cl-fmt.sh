@@ -21,8 +21,6 @@ done
 # Check if we found a working clang-format
 if [ -z "$FMT" ]; then
     echo "failed to find clang-format"
-    echo "failed to find clang-format"
-
     exit 1
 fi
 
